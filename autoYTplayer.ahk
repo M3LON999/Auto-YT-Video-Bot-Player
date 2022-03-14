@@ -1,7 +1,8 @@
 Var1 := 3
+Users := 2
 
 Alt & p::
-loop, 2
+loop, 10
 {
 	Send ^l
   Sleep 1000
@@ -49,7 +50,7 @@ loop, 2
     }
     Send {Enter}
     Sleep 2000
-    Var1 += 3
+    Var1 += ((%Users%-2)*11)+3
     loop, %Var1%
     {
       Send {Tab}
@@ -59,7 +60,8 @@ loop, 2
     Send {Enter}
     ; Sleep 6000
     Sleep 1128000 ; Set the length of the video/playlist.
-    Var1 -= 14
+    Var1 := 3
+    Users := 3 ; Total Users
   }
 }
 Send {RWin down}r{RWin up}
