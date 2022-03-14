@@ -59,7 +59,7 @@ loop, 2
     Send {Enter}
     ; Sleep 6000
     Sleep 1128000 ; Set the length of the video/playlist.
-    Var1 -= 13
+    Var1 -= 14
   }
 }
 Send {RWin down}r{RWin up}
