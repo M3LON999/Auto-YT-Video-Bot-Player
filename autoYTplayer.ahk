@@ -61,7 +61,6 @@ loop, 10
     ; Sleep 6000
     Sleep 1128000 ; Set the length of the video/playlist.
     Var1 := 3
-    Users := 3 ; Total Users
   }
 }
 Send {RWin down}r{RWin up}
